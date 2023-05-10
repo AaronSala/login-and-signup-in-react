@@ -1,0 +1,103 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+   
+}
+
+.login{
+    
+    float: center;
+    height: 45vh;
+    padding-top: 15vh;
+    width: 30em;
+    position: relative;
+    box-shadow: 0 1em 2em 1em #000;
+    
+}
+.form input{
+    margin: 20px;
+    height: 4vh;
+    width: 50%;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    position: relative;
+}
+.form label{
+    font-size: 24px;
+}
+.button{
+    width: 50%;
+    margin-left: 5.5rem;
+    height: 4.5vh;
+    font-size: 30px;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+span{
+    color: green;
+}
+h2{
+    color: red;
+}
+.button:hover{
+    transform: scale(1.25);
+}
+/* for refister form */
+.register{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25em;
+    box-shadow: 0 1em 1em 1em #000;
+    background-color: aqua;
+    align-items: center;
+    height: 100vh;
+  
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    width: 80%;
+    font-size: 24px;
+   text-align: left;
+   
+  
+
+}
+.button2{
+    height: 5vh;
+    font-size: 18px;
+    background-color: green;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 4px;
+}
+.form2 input{
+height: 5vh;
+border: none;
+border-radius: 3px;
+
+font-size: 18px;
+padding-left: 10px;
+
+}
+.form2 error{
+ color: red;
+ display:none;
+ font-weight: 500;
+}
+p{
+    color: red;
+    margin-top: 0.5vh;
+}
